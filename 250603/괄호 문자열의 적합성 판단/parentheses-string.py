@@ -1,3 +1,4 @@
+import sys
 str = input()
 
 # Please write your code here.
@@ -34,7 +35,7 @@ for i in str:
     else:
         if s.empty():
             print("No")
-            break
+            sys.exit()
         else:
             s.pop()
 
