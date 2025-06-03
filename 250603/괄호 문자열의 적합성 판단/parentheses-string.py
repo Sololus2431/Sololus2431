@@ -14,14 +14,14 @@ class Stack:
     def push(self, item):
         self.items.append(item)
     
-    def pop():
+    def pop(self):
         if self.empty():
             return
         else:
             self.items.pop()
     
-    def top():
-        if self.empty()
+    def top(self):
+        if self.empty():
             return None
         else:
             return self.items[-1]
@@ -30,7 +30,7 @@ class Stack:
 s = Stack()
 for i in str:
     if i == '(':
-        s.push()
+        s.push("(")
     else:
         if s.empty():
             print("No")
