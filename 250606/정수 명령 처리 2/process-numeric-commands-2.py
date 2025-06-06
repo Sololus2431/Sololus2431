@@ -30,7 +30,8 @@ class Queue:
     def pop(self):               # 큐의 맨 앞에 있는 데이터를 반환하고 제거합니다.
         if self.empty():
             raise Exception("Queue is empty")
-            
+        
+        print(self.dq[0])
         return self.dq.popleft()
                 
     def front(self):             # 큐의 맨 앞에 있는 데이터를 제거하지 않고 반환합니다.
