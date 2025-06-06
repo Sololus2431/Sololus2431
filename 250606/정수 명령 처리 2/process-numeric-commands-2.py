@@ -40,7 +40,7 @@ class Queue:
         return self.dq[0]
 q  = Queue()
 
-for i in range(N)
+for i in range(N):
     if command[i] == "push":
         q.push(A[i])
     elif command[i] == "empty":
